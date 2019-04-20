@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+}
+
+.heading {
+    padding-bottom: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar {
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+}
+
+.nav-bg {
+    width: 100%;
+    height: 100px;
+    z-index: 2000;
+    background: transparent !important;
+}
+.nav-bg{
+    position: fixed;
+    background-color: rgba(0,0,0,.8);
+    transition:all .6s ease-in-out; 
+}
+.nav-add {
+    background: rgba(0,0,0,.5) !important;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px -1px 9px rgba(0, 0, 0, .9);
+}
+
+.nav-bg .top-nav {
+    padding: 20px 0;
+}
+
+.nav-bg .bg-light {
+    background: transparent !important;
+}
+
+.nav-bg .bg-color {
+    background-color:rgba(0,0,0,.9);
+    color: #000;
+    transition: all .5s ease-in-out;
+    box-shadow: 1px -1px 9px rgba(0, 0, 0, .9);
+    padding: 5px 0;
+}
+
+.a-color {
+    color: #000;
+    transition: all .5s ease-in-out;
+}
+.form-control mr-sm-2 {
+    background: transparent !important;
+}
+
+.navbar input::placeholder {
+    color: #fff;
+}
+
+
+.nav-add a {
+    color: #000 !important;
+    
+}
+.nav-add input::placeholder {
+    color: #000;
+}
+.nav-add .btn-outline-light {
+    background: #000 !important;
+    color: #fff !imoprtant;
+}
+.header {
+    position: relative;
+}
+
+.header .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.header carousel-control-prev-icon,
+.header .carousel-control-next-icon {
+    position: relative;
+    z-index: 13;
+}
+
+/*start coment*/
+
+.coment {
+    
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../image/image2/weight3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.coment .row .col-lg-4 {
+    padding: 0;
+}
+
+.coment .heads {
+    padding: 50px;
+    font-weight: 200;
+    padding-top: 100px;
+    width: 100%;
+ 
+
+}
+
+.coment .heads button {
+    border: 1.5px solid white;
+    border-radius: 30px;
+}
+.coment img{
+    width: 100%;
+ 
+}
+.coment .heads h1 {
+    font-family: 'Satisfy', cursive;
+}
+
+/*start introduction*/
+
+.introduction {
+    padding: 50px 0;
+    overflow: auto;
+}
+
+.introduction .text {
+    background-color: rgba(255, 255, 255, .7);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/*start imgh*/
+
+.imgh {
+    padding: 70px;
+    background: #eee;
+}
+
+.imgh .heading {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.imgh .size4 {
+    overflow: hidden;
+}
+
+.imgh .size4 img {
+    width: 100%;
+    transition: all 4s ease-in-out;
+}
+
+.imgh .size4:hover img {
+    transform: scale(2);
+}
+
+.imgh .size4 .overlay {
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+
+.imgh .size4:hover .overlay {
+    width: 93%;
+    height: 100%;
+}
+
+.imgh .size4 .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.imgh .size4 .text h2 {
+    color: white;
+    margin: 40px 0px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.imgh .size4 .text span i {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.imgh .size4:hover .text {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* start type*/
+
+.type {
+    padding: 70px;
+    overflow: auto;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../image/image2/weight7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.type .div2 {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.type .div2 .overlay {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s ease-in-out;
+}
+
+.type .div2 .t-float {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 15px;
+}
+
+.type .div2:hover .overlay {
+    top: 0;
+}
+
+.type .div2 .t-float span i {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    transition: all 1s ease-in-out;
+}
+
+/*start badfood*/
+
+.badfood {
+    padding: 80px;
+    background: #eee;   
+}
+
+.badfood .text {
+    padding: 40px
+}
+
+.badfood .text h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+.badfood .imgb {
+    overflow: hidden;
+}
+
+.badfood .imgb img {
+    transition: all .6s ease-in-out;
+}
+
+.badfood .imgb img:hover {
+    transform: scale(1.1);
+    border: 2px solid #ddd;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.badfood .imgb:hover {
+    box-shadow: 3px 10px 45px gray;
+}
+
+.badfood .textbad {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*start finalimg*/
+
+.finalimg {
+    overflow: hidden;
+
+}
+
+.finalimg .row .col-lg-3 {
+    padding: 0;
+}
+
+.finalimg .imgf2:hover img {
+    transition: all 1s ease-in-out;
+   box-shadow: 3px 10px 45px gray;
+    border: 1px solid black;
+}
+
+
+/*start form*/
+
+.form {
+    overflow: auto;
+    background-image: url(../image/image2/111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+/*start icon*/
+
+.icon {
+    height: 300px;
+    background-color: #2b2b43;
+    padding: 70px;
+}
+
+.icon .row .col-lg-12 {
+    padding: 0;
+}
+.icon .info{
+    padding: 20px;
+    padding-top: 0;
+}
+.icon .info span i{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    transition: all .5s ease-in-out;
+    word-spacing: 300px;
+    border-radius: 50%;
+}
+.icon  .info span i:hover{
+    opacity: 1;
+    cursor: pointer;
+    color: gray;
+    box-shadow: 2px 1px 15px white;
+}

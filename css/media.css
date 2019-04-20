@@ -1,0 +1,28 @@
+@media(max-width:992px){
+    .heads, .imgc{
+        width: 100%;
+        float: none;
+
+    }
+    .heading{
+        width: 100%;
+    }
+    .size4{
+        width:100%;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .badfood .text{
+        width: 25%;
+        float: left;
+    }
+    .imgb{
+        float: left;
+        margin-bottom: 30px;
+    }
+    .textbad{
+        width: 100%;
+       float: left;
+        margin-bottom: 30px;  
+}
+}
